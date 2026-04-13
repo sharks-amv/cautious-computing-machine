@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-canvas text-slate-900;
+}
+
+.card {
+  @apply rounded-xl border border-border bg-panel p-4 shadow-sm;
+}
